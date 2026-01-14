@@ -53,6 +53,9 @@
 .nav-bar ul{
     margin-top: 63px;
 }
+.nav-list li a{
+    color: #424242;
+}
 
 .nav-list{
     gap: 30px;
@@ -222,6 +225,69 @@ footer p{
     padding: 38px;
     color: #424242;
 }
+/* love section */
+.love-enjoy .love-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+    border-left: 6px solid #FF900E;
+    padding-left: 39px;
+    margin-bottom: 24px;
+}
+.love-enjoy{
+    display: flex;
+    max-width: 1440px;
+    margin:  130px auto;
+    gap: 146px;
+    align-items: center;
+
+}
+.info{
+    max-width: 586px;
+    margin-bottom: 30px;
+}
+.love-card{
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+
+}
+.love-card-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #131313;
+    margin-bottom: 10px;
+
+}
+.love-card-para{
+    font-size: 1rem;
+    line-height: 1.6rem;
+    font-weight: 400;
+    color: #727272;
+}
+.big-btn #title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 4.375rem;
+    margin: 0;
+}
+#little{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color: #FFFFFF;
+}
+.big-btn{
+    padding: 46px 42px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: none;
+    margin-left: -92px;
+    margin-top: -160px;
+
+}
+
 /* reponsive media quary */
 @media screen and (max-width:576px) {
     .nav-bar, .nav-list{
@@ -254,4 +320,14 @@ footer p{
     .our-sponspors .all-logos{
         justify-items: center;
     }
+    .love-enjoy{
+        flex-direction: column;
+    }
+    .love-enjoy img{
+        width: 100%;
+    }
+    .big-btn{
+        margin: 20px 30px;
+    }
+    
 }
